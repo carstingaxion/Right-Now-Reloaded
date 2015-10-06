@@ -1,0 +1,99 @@
+# Copyright (C) 2012 Right Now Reloaded
+# This file is distributed under the same license as the Right Now Reloaded package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Right Now Reloaded 2.0\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/right-now-reloaded\n"
+"POT-Creation-Date: 2012-03-27 04:14:28+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2015-10-06 14:24+0100\n"
+"Last-Translator: Carsten Bach <mail@carsten-bach.de>\n"
+"Language-Team: Carsten Bach <mail@carsten-bach.de>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: de_DE\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: right-now-reloaded.php:128
+msgid "You are using the %1$s theme"
+msgstr "Hier läuft das %1$s theme"
+
+#: right-now-reloaded.php:133
+msgid " on WordPress %1$s"
+msgstr " mit WordPress %1$s"
+
+#: right-now-reloaded.php:143
+msgid " with %1$s active plugin"
+msgid_plural " with %1$s active plugins"
+msgstr[0] " mit %1$s aktivem Plugin"
+msgstr[1] " mit %1$s aktiven Plugins"
+
+#: right-now-reloaded.php:148
+msgid " and %1$s registered user"
+msgid_plural " and %1$s registered users"
+msgstr[0] "und %1$s registriertem Benutzer"
+msgstr[1] "und %1$s registrierten Benutzern"
+
+#: right-now-reloaded.php:152
+msgid "."
+msgstr "."
+
+#: right-now-reloaded.php:171
+msgid "Widget"
+msgstr "Widget"
+
+#: right-now-reloaded.php:172
+msgid "Widgets"
+msgstr "Widgets"
+
+#: right-now-reloaded.php:178
+msgid "Active Menu"
+msgstr "aktivem Menü"
+
+#: right-now-reloaded.php:179
+msgid "Active Menus"
+msgstr "aktiven Menüs"
+
+#: right-now-reloaded.php:207
+msgid "Comment"
+msgstr "Kommentar"
+
+#: right-now-reloaded.php:208
+msgid "Comments"
+msgstr "Kommentare"
+
+#: right-now-reloaded.php:221
+msgid "Link Category"
+msgstr ""
+
+#: right-now-reloaded.php:222
+msgid "Link Categories"
+msgstr ""
+
+#: right-now-reloaded.php:229
+msgid "Link"
+msgstr ""
+
+#: right-now-reloaded.php:230
+msgid "Links"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Right Now Reloaded"
+msgstr "Auf einen Blick"
+
+#. Description of the plugin/theme
+msgid ""
+"A better version of the \"Right Now\" dashboard widget, tailored to show "
+"what's relevant to your site."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Michael Dance"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://mikedance.com"
+msgstr ""
