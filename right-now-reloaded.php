@@ -2,9 +2,9 @@
 /**
  * Plugin Name: Right Now Reloaded
  * Description: A better version of the "Right Now" dashboard widget, tailored to show what's relevant to your site.
- * Version: 2.2
- * Author: Michael Dance
- * Author URI: http://mikedance.com
+ * Version: 2.3
+ * Author: Carsten Bach
+ * Author URI: http://carsten-bach.de
  * License: GPLv2
  */
 
@@ -63,7 +63,7 @@ class Right_Now_Reloaded {
 		unset( $wp_meta_boxes['dashboard']['normal']['core']['dashboard_right_now'] );
 
 		// In with the new
-		wp_add_dashboard_widget( 'md-rnr-widget', 'Right Now Reloaded', array( __CLASS__, 'display' ) );
+		wp_add_dashboard_widget( 'md-rnr-widget', __('Right Now Reloaded','right-now-reloaded'), array( __CLASS__, 'display' ) );
 
 		// Move the new widget to the top
 		$dashboard = $wp_meta_boxes['dashboard']['normal']['core'];
@@ -335,8 +335,8 @@ class Right_Now_Reloaded {
 		if ( ( $args['pending'] || $args['draft'] ) && current_user_can( $args['cap'] ) ) {
 
 			$actions = array(
-				'pending' => array( 'pending', 'pending', $args['pending'] ),
-				'draft' => array( __('draft'), __('drafts'), $args['draft'] )
+				'pending' => array( _x('pending', 'Singular', 'right-now-reloaded'), _x('pending', 'Plural', 'right-now-reloaded'), $args['pending'] ),
+				'draft' => array( __('draft', 'right-now-reloaded'), __('drafts', 'right-now-reloaded'), $args['draft'] )
 			);
 
 			if ( $args['name'] == 'comment' ) $link = 'edit-comments.php?comment_status=moderated';

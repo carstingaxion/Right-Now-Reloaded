@@ -2,98 +2,121 @@
 # This file is distributed under the same license as the Right Now Reloaded package.
 msgid ""
 msgstr ""
-"Project-Id-Version: Right Now Reloaded 2.0\n"
-"Report-Msgid-Bugs-To: http://wordpress.org/tag/right-now-reloaded\n"
-"POT-Creation-Date: 2012-03-27 04:14:28+00:00\n"
+"Project-Id-Version: Right Now Reloaded 2.3\n"
+"Report-Msgid-Bugs-To: https://github.com/carstingaxion/Right-Now-Reloaded/"
+"issues\n"
+"POT-Creation-Date: 2015-10-06 15:04+0100\n"
+"PO-Revision-Date: 2015-10-06 15:06+0100\n"
+"Last-Translator: Carsten Bach <mail@carsten-bach.de>\n"
+"Language-Team: Carsten Bach <mail@carsten-bach.de>\n"
+"Language: de_DE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2015-10-06 14:24+0100\n"
-"Last-Translator: Carsten Bach <mail@carsten-bach.de>\n"
-"Language-Team: Carsten Bach <mail@carsten-bach.de>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"Language: de_DE\n"
 "X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;"
+"_nx_noop:1,2,3c;esc_attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;"
+"esc_html_x:1,2c\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ../\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
 
-#: right-now-reloaded.php:128
+#: right-now-reloaded.php:66
+msgid "Right Now Reloaded"
+msgstr "Auf einen Blick"
+
+#: right-now-reloaded.php:134
+#, php-format
 msgid "You are using the %1$s theme"
-msgstr "Hier läuft das %1$s theme"
+msgstr "Hier läuft das %1$s Theme"
 
-#: right-now-reloaded.php:133
+#: right-now-reloaded.php:139
+#, php-format
 msgid " on WordPress %1$s"
-msgstr " mit WordPress %1$s"
+msgstr " auf WordPress %1$s"
 
-#: right-now-reloaded.php:143
+#: right-now-reloaded.php:149
+#, php-format
 msgid " with %1$s active plugin"
 msgid_plural " with %1$s active plugins"
 msgstr[0] " mit %1$s aktivem Plugin"
 msgstr[1] " mit %1$s aktiven Plugins"
 
-#: right-now-reloaded.php:148
+#: right-now-reloaded.php:154
+#, php-format
 msgid " and %1$s registered user"
 msgid_plural " and %1$s registered users"
-msgstr[0] "und %1$s registriertem Benutzer"
-msgstr[1] "und %1$s registrierten Benutzern"
+msgstr[0] " und %1$s registriertem Benutzer"
+msgstr[1] " und %1$s registrierten Benutzern"
 
-#: right-now-reloaded.php:152
+#: right-now-reloaded.php:158
 msgid "."
 msgstr "."
 
-#: right-now-reloaded.php:171
+#: right-now-reloaded.php:177
 msgid "Widget"
 msgstr "Widget"
 
-#: right-now-reloaded.php:172
+#: right-now-reloaded.php:178
 msgid "Widgets"
 msgstr "Widgets"
 
-#: right-now-reloaded.php:178
+#: right-now-reloaded.php:184
 msgid "Active Menu"
-msgstr "aktivem Menü"
+msgstr "Menü"
 
-#: right-now-reloaded.php:179
+#: right-now-reloaded.php:185
 msgid "Active Menus"
-msgstr "aktiven Menüs"
+msgstr "Menüs"
 
-#: right-now-reloaded.php:207
+#: right-now-reloaded.php:213
 msgid "Comment"
 msgstr "Kommentar"
 
-#: right-now-reloaded.php:208
+#: right-now-reloaded.php:214
 msgid "Comments"
 msgstr "Kommentare"
 
-#: right-now-reloaded.php:221
+#: right-now-reloaded.php:227
 msgid "Link Category"
 msgstr ""
 
-#: right-now-reloaded.php:222
+#: right-now-reloaded.php:228
 msgid "Link Categories"
 msgstr ""
 
-#: right-now-reloaded.php:229
+#: right-now-reloaded.php:235
 msgid "Link"
 msgstr ""
 
-#: right-now-reloaded.php:230
+#: right-now-reloaded.php:236
 msgid "Links"
 msgstr ""
 
-#. Plugin Name of the plugin/theme
-msgid "Right Now Reloaded"
-msgstr "Auf einen Blick"
+#: right-now-reloaded.php:286
+msgid "Content"
+msgstr "Inhalt"
 
-#. Description of the plugin/theme
-msgid ""
-"A better version of the \"Right Now\" dashboard widget, tailored to show "
-"what's relevant to your site."
-msgstr ""
+#: right-now-reloaded.php:287
+msgid "Organization"
+msgstr "Zuordnung"
 
-#. Author of the plugin/theme
-msgid "Michael Dance"
-msgstr ""
+#: right-now-reloaded.php:338
+msgctxt "Singular"
+msgid "pending"
+msgstr "anstehend"
 
-#. Author URI of the plugin/theme
-msgid "http://mikedance.com"
-msgstr ""
+#: right-now-reloaded.php:338
+msgctxt "Plural"
+msgid "pending"
+msgstr "anstehende"
+
+#: right-now-reloaded.php:339
+msgid "draft"
+msgstr "Entwurf"
+
+#: right-now-reloaded.php:339
+msgid "drafts"
+msgstr "Entwürfe"
