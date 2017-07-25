@@ -6,7 +6,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://github.com/carstingaxion/Right-Now-Reloaded/"
 "issues\n"
 "POT-Creation-Date: 2015-10-06 15:04+0100\n"
-"PO-Revision-Date: 2015-10-06 15:06+0100\n"
+"PO-Revision-Date: 2015-11-24 07:01+0100\n"
 "Last-Translator: Carsten Bach <mail@carsten-bach.de>\n"
 "Language-Team: Carsten Bach <mail@carsten-bach.de>\n"
 "Language: de_DE\n"
@@ -81,19 +81,19 @@ msgstr "Kommentare"
 
 #: right-now-reloaded.php:227
 msgid "Link Category"
-msgstr ""
+msgstr "Link Kategorie"
 
 #: right-now-reloaded.php:228
 msgid "Link Categories"
-msgstr ""
+msgstr "Link Kategorien"
 
 #: right-now-reloaded.php:235
 msgid "Link"
-msgstr ""
+msgstr "Link"
 
 #: right-now-reloaded.php:236
 msgid "Links"
-msgstr ""
+msgstr "Links"
 
 #: right-now-reloaded.php:286
 msgid "Content"
@@ -106,12 +106,12 @@ msgstr "Zuordnung"
 #: right-now-reloaded.php:338
 msgctxt "Singular"
 msgid "pending"
-msgstr "anstehend"
+msgstr "Review"
 
 #: right-now-reloaded.php:338
 msgctxt "Plural"
 msgid "pending"
-msgstr "anstehende"
+msgstr "Reviews"
 
 #: right-now-reloaded.php:339
 msgid "draft"

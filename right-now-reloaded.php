@@ -1,12 +1,13 @@
 <?php
-/**
- * Plugin Name: Right Now Reloaded
- * Description: A better version of the "Right Now" dashboard widget, tailored to show what's relevant to your site.
- * Version: 2.3
- * Author: Carsten Bach
- * Author URI: http://carsten-bach.de
- * License: GPLv2
- */
+/*
+Plugin Name:    Right Now Reloaded
+Plugin URI:     https://github.com/carstingaxion/Right-Now-Reloaded
+Description:    A better version of the "Right Now" dashboard widget, tailored to show what's relevant to your site.
+Version:        2.4 (2015.11.12)
+Author:         Carsten Bach
+Author Email:   mail@carsten-bach.de
+License:        GPLv2
+*/
 
 
 class Right_Now_Reloaded {
@@ -17,6 +18,14 @@ class Right_Now_Reloaded {
 	 * dashboard_init().
 	 */
 	static public function init() {
+		//Hook up to the init action
+		add_action( 'plugins_loaded', array( __CLASS__, 'late_init' ), 9999 );
+	}
+
+	/**
+	 * Load files.
+	 */
+	static public function late_init() {
 		add_action( 'init',           array( __CLASS__, 'i18n' ) );
 		add_action( 'load-index.php', array( __CLASS__, 'dashboard_init' ) );
 	}
@@ -208,7 +217,7 @@ class Right_Now_Reloaded {
 
 				}
 
-				// Add comments
+/*				// Add comments
 				$args_array[] = array(
 					'singular' => __( 'Comment', 'right-now-reloaded' ),
 					'plural'   => __( 'Comments', 'right-now-reloaded' ),
@@ -217,10 +226,12 @@ class Right_Now_Reloaded {
 					'amount'   => self::count_comments(),
 					'pending'  => self::count_comments( 'moderated' )
 				);
-
+*/
 				break;
 
 			case 'secondary':
+/*
+// we don't need links stuff anymore
 
 				$args_array = array(
 					array(
@@ -239,9 +250,11 @@ class Right_Now_Reloaded {
 						'amount'   => count( get_bookmarks() )
 					)
 				);
-
+*/
 				// Get all taxonomies with a public UI
 				$taxonomies = get_taxonomies( array( 'show_ui' => true ), 'objects' );
+#				$taxonomies = get_taxonomies( array(), 'objects' );
+#				$taxonomies = get_taxonomies( array( '_builtin' => false ), 'objects' );
 
 				// Loop through each taxonomy and store data
 				foreach ( $taxonomies as $taxonomy ) {
@@ -347,9 +360,9 @@ class Right_Now_Reloaded {
 				$link = 'edit.php?post_status=' . $status . '&post_type=' . $args['name'];
 
 				if ( $action[2] ) {
-					$actions_output .= '<a class="button md-rnr-action-' . $status . '" href="' . $link . '">';
+					$actions_output .= '<span class="post-state"><span class="' . $status . '"><a class="md-rnr-action-' . $status . '" href="' . $link . '">';
 					$actions_output .= number_format_i18n( $action[2] ) . ' ' . _n( $action[0], $action[1], $action[2], 'right-now-reloaded' );
-					$actions_output .= '</a>';
+					$actions_output .= '</a></span></span> ';
 				}
 			}
 
